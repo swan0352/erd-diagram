@@ -78,7 +78,6 @@ erDiagram
     integer weekly_cases
     integer weekly_deaths
     integer total_hotspots_in_state
-    UNIQUE(state_code, year, epi_week)
   }
   
   HEALTH_SNAPSHOT {
